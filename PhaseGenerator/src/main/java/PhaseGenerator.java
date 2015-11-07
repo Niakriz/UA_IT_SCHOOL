@@ -2,6 +2,7 @@ import java.io.*;
 
 /**
  * Created by Nia on 06.11.2015.
+ *
  */
 
 public class PhaseGenerator {
