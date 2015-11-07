@@ -17,13 +17,10 @@ public class PhaseGenerator {
             FileReader fileReader = new FileReader(openFile);
             bufferedReader = new BufferedReader(fileReader);
             while ((dataline = bufferedReader.readLine())!= null){
-                for (String retdata: dataline.split(";",-1)){
-                    System.out.println(retdata);
-                    String[] wordList1 ={retdata};
+                System.out.println(dataline);
+                String[] retdata =  dataline.split(";");
+                System.out.println(retdata.length);
 
-                    int lenthData = wordList1.length;
-                   System.out.println(lenthData);
-                }
 
 
             }
